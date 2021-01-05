@@ -1,0 +1,45 @@
+
+
+#logo{
+    color: dodgerblue;
+}
+
+
+body{
+    background-color: white;
+}
+
+#cf{
+    
+    height: 500px;
+    width: auto;
+    background-color: white;
+    padding: 10px;
+}
+
+#c{
+    background-color: white;
+    height: 450px;
+    width: 1300px;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+#intro{
+    display: flex;
+    justify-content: center;
+    margin-top: 7em;
+}
+
+#para{
+    padding: 20px;
+}
+
+.bg-light{
+    background-color: white !important;
+}
+
+.navbar-toggler{
+    color: blue !important;
+}

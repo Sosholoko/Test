@@ -1,0 +1,73 @@
+h1 {
+    color: yellow ;
+    text-align: left;
+    
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h2{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+p{
+    color: snow;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(67, 126, 28);
+    padding: 1em 1.5em;
+    text-align: center;
+    border-radius: 30px;
+    transition: all 0.5s;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+
+a:hover{
+ transform: scale(1.1);
+ cursor: pointer;
+}
+
+
+body{
+    background-image: url(safari.jpg);
+    background-size: cover;
+
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+   
+}
+
+img {
+   transition: all 0.6s;
+   margin: 30px;
+
+}
+   
+
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+

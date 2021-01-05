@@ -1,0 +1,217 @@
+body{
+    background-color: blue;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(90, 194, 255) ;
+    text-align: center;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 80px;
+    border: solid 3px rgb(90, 194, 255) ;
+    border-radius: 50px;
+}
+
+.btn{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer; 
+}
+
+.btn span {
+    height: 3px;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.btn span:before{
+    content: '';
+    height: 3px;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    left: 0;
+
+}
+
+.btn span:after{
+    content: '';
+    height: 3px;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.menu{
+    height: 1000px;
+    background-color: teal;
+    width: 200px;
+}
+
+.menu a{
+    color:#ffff;
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.nav{
+    margin-left: -200px;
+    transition-duration: 0.2s;
+}
+
+.nav_open{
+    margin-left: 0;
+    transition-duration: 0.2s;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+#jf{
+   
+  
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    transform: all 0.5s;
+ 
+
+}
+
+#jf:hover{
+   
+    transform: scale(1.5);
+    
+    
+}
+
+.sidebar{
+    display: flex;
+    flex-flow: row;
+    margin-top: none;
+    justify-content: space-evenly;
+    padding: 0px 0px;
+    text-align: right;
+    text-decoration: none;
+
+}
+
+#menu{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+   
+}
+
+#menu:hover{
+    transform: scale(1.1);
+}
+
+#login{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+#login:hover{
+    transform: scale(1.1);
+}
+
+#signin{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+#signin:hover{
+    transform: scale(1.1);
+}
+
+#home{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+#home:hover{
+    transform: scale(1.1);
+}
+
+#start{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+#start:hover{
+    transform: scale(1.5);
+}
+
+#footer{
+    font-size: 11px;
+}
+
+.downbar{
+    display: flex;
+    flex-flow: row;
+    margin-top: none;
+    justify-content: space-evenly;
+    padding: 0px 0px;
+    text-align: right;
+    text-decoration: none;
+
+}
+
+#cond{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+#use{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+#us{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+#term{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
